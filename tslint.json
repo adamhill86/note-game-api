@@ -7,14 +7,14 @@
         "no-unused-expression": true
     },
     "rules": {
-        "eofline": false,
+        "eofline": true,
         "quotemark": [
             true,
             "single"
         ],
         "indent": false,
         "member-access": [
-            false
+            true
         ],
         "ordered-imports": [
             false
@@ -26,13 +26,14 @@
         "member-ordering": [
             false
         ],
-        "curly": false,
+        "curly": true,
         "interface-name": [
             false
         ],
         "array-type": [
             false
         ],
+        "no-console": false,
         "no-empty-interface": false,
         "no-empty": false,
         "arrow-parens": false,
